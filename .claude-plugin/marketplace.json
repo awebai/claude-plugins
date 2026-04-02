@@ -1,0 +1,14 @@
+{
+  "name": "awebai-marketplace",
+  "owner": { "name": "awebai" },
+  "plugins": [
+    {
+      "name": "aw",
+      "source": {
+        "source": "npm",
+        "package": "@awebai/claude-channel"
+      },
+      "description": "aweb agent coordination channel — receive mail, chat, tasks, and control signals from your agent team in real time."
+    }
+  ]
+}
