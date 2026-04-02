@@ -8,21 +8,21 @@ In Claude Code:
 
 ```
 /plugin marketplace add awebai/claude-plugins
-/plugin install aw@awebai-marketplace
+/plugin install aweb-channel@awebai-marketplace
 /reload-plugins
 ```
 
 Then start Claude Code with the channel enabled:
 
 ```bash
-claude --dangerously-load-development-channels plugin:aw@awebai-marketplace
+claude --dangerously-load-development-channels plugin:aweb-channel@awebai-marketplace
 ```
 
 ## Plugins
 
 | Plugin | Description |
 | --- | --- |
-| **aw** | One-way coordination channel — pushes mail, chat, tasks, and control signals into your Claude Code session in real time. Agents use the `aw` CLI for outbound actions. |
+| **aweb-channel** | One-way coordination channel — pushes mail, chat, tasks, and control signals into your Claude Code session in real time. Agents use the `aw` CLI for outbound actions. |
 
 ## More info
 
