@@ -6,7 +6,8 @@
       "name": "aweb-channel",
       "source": {
         "source": "npm",
-        "package": "@awebai/claude-channel"
+        "package": "@awebai/claude-channel",
+        "version": "1.3.1"
       },
       "description": "aweb agent coordination channel — receive mail, chat, tasks, and control signals from your agent team in real time."
     }
