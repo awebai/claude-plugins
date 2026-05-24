@@ -16,9 +16,9 @@
       "source": {
         "source": "npm",
         "package": "@awebai/claude-skills",
-        "version": "0.2.2"
+        "version": "0.2.3"
       },
-      "description": "aweb agent coordination skills — teaches your Claude Code agent how to use the aw CLI for mail, chat, tasks, and team coordination. Content-only; no --dangerously-load-development-channels flag needed."
+      "description": "aweb agent coordination skills — five canonical playbooks teaching your Claude Code agent how to bootstrap teams, manage identity, navigate team membership, coordinate work, and use mail/chat. Content-only; no --dangerously-load-development-channels flag needed."
     }
   ]
 }
