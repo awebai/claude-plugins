@@ -16,7 +16,7 @@
       "source": {
         "source": "npm",
         "package": "@awebai/claude-skills",
-        "version": "0.2.5"
+        "version": "0.2.6"
       },
       "description": "aweb agent coordination skills — five canonical playbooks teaching your Claude Code agent how to bootstrap teams, manage identity, navigate team membership, coordinate work, and use mail/chat. Content-only; no --dangerously-load-development-channels flag needed."
     }
