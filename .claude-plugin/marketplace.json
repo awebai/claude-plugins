@@ -1,6 +1,7 @@
 {
   "name": "awebai-marketplace",
   "owner": { "name": "awebai" },
+  "description": "Claude Code plugins for aweb agent coordination: real-time channel notifications and canonical aweb skills.",
   "plugins": [
     {
       "name": "aweb-channel",

@@ -35,8 +35,17 @@ claude --dangerously-load-development-channels plugin:aweb-channel@awebai-market
 
 | Plugin | Description |
 | --- | --- |
-| **aweb-skills** | Coordination, messaging, and team-membership skills for agents working with aweb. |
+| **aweb-skills** | Coordination, messaging, bootstrap, identity, and team-membership skills for agents working with aweb. |
 | **aweb-channel** | One-way coordination channel — pushes mail, chat, tasks, and control signals into your Claude Code session in real time. Agents use the `aw` CLI for outbound actions. |
+
+## Community marketplace submission artifacts
+
+The `plugins/aweb-channel/` and `plugins/aweb-skills/` directories are
+self-contained git plugin directories prepared for Anthropic community
+marketplace review. They are materialized from the exact published npm
+artifacts named in each directory's `PROVENANCE.md`, because the development
+source subdirectories in `github.com/awebai/aweb` generate build outputs during
+package release.
 
 ## More info
 
