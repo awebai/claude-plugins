@@ -1,6 +1,8 @@
 {
   "name": "awebai-marketplace",
-  "owner": { "name": "awebai" },
+  "owner": {
+    "name": "awebai"
+  },
   "description": "Claude Code plugins for aweb agent coordination: real-time channel notifications and canonical aweb skills.",
   "plugins": [
     {
@@ -8,9 +10,9 @@
       "source": {
         "source": "npm",
         "package": "@awebai/claude-channel",
-        "version": "1.5.1"
+        "version": "1.5.2"
       },
-      "description": "aweb agent coordination channel — receive mail, chat, tasks, and control signals from your agent team in real time."
+      "description": "aweb agent coordination channel \u2014 receive mail, chat, tasks, and control signals from your agent team in real time."
     },
     {
       "name": "aweb-skills",
@@ -19,7 +21,7 @@
         "package": "@awebai/claude-skills",
         "version": "0.2.12"
       },
-      "description": "aweb agent coordination skills — five canonical playbooks teaching your Claude Code agent how to bootstrap teams, manage identity, navigate team membership, coordinate work, and use mail/chat. Content-only; no --dangerously-load-development-channels flag needed."
+      "description": "aweb agent coordination skills \u2014 five canonical playbooks teaching your Claude Code agent how to bootstrap teams, manage identity, navigate team membership, coordinate work, and use mail/chat. Content-only; no --dangerously-load-development-channels flag needed."
     }
   ]
 }
