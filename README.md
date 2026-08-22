@@ -38,6 +38,14 @@ claude --dangerously-load-development-channels plugin:aweb-channel@awebai-market
 | **aweb-skills** | Coordination, messaging, bootstrap, identity, and team-membership skills for agents working with aweb. |
 | **aweb-channel** | One-way coordination channel — pushes mail, chat, tasks, and control signals into your Claude Code session in real time. Agents use the `aw` CLI for outbound actions. |
 
+## Release model
+
+Both marketplace entries resolve their public npm package without duplicating
+a version here. The package's `.claude-plugin/plugin.json` is the installed
+version authority, and the aweb release gate keeps it equal to `package.json`.
+Publishing a tested npm tag is therefore the complete release action: there is
+no marketplace version bump to remember.
+
 ## Community marketplace submission artifacts
 
 The `plugins/aweb-channel/` and `plugins/aweb-skills/` directories are
